@@ -1,17 +1,16 @@
-//import logo from './logo.svg';
 import Navbar from './componentes/navbar.js';
-import "bootstrap/dist/css/bootstrap.min.css"
+import Footer from './componentes/footer.js';
+import Main from './componentes/main.js';
+// import Card from './componentes/card.js';
+
 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header"> 
-        <h1>hola mundo</h1> 
-      </header>
-
       <Navbar/>
-
+      <Main/> {/*agrego el main donde tiene todo lo demas :)*/}
+      <Footer/>
     </div> 
   );
 }
