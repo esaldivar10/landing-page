@@ -8,8 +8,6 @@ const Main = () => {
 	return(
 		<section className="container">
 			<Jumbotron/>
-
-
 			<div class="container">
 			  <div class="d-flex flex-row bd-highlight">
 				{img.map((link) => <Card url={link}/>)}
